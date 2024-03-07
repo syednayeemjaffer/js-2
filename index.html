@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <main id="main">
+        <div id="star">
+            <img id="starimg1" src="images/icon-star.svg" alt="no img">
+        </div>
+        <div id="star1">
+            <h1>How did we do?</h1>
+        </div>
+        <div id="star2">
+            <p> Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering! </p>
+        </div>
+        <div id="rating">
+            <button onclick="changeButtonColor(this)" class="num" id="num1">1</button>
+            <button onclick="changeButtonColor(this)" class="num" id="num2">2</button>
+            <button onclick="changeButtonColor(this)" class="num" id="num3">3</button>
+            <button onclick="changeButtonColor(this)" class="num" id="num4">4</button>
+            <button onclick="changeButtonColor(this)" class="num" id="num5">5</button>
+        </div>
+        <div id="submit">
+            <button onclick="submiteclick()" class="sub">submit</button>
+        </div>
+
+
+
+        <div class="img" >
+            <img id="img" src="images/illustration-thank-you.svg" alt="">
+        </div>
+        <div id="pjs">
+            <p>you selected <span id="span"></span> out of 5</p>
+        </div>
+        <div id="h1">
+            <h1>THANK YOU!</h1>
+        </div>
+        <div id="fip">
+            <p id="output">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html> 
